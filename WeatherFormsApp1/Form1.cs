@@ -21,7 +21,7 @@ namespace WeatherFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            XmlDocument doc1 =new XmlDocument();
+            XmlDocument doc1 = new XmlDocument();
             doc1.Load(weather_forecast_link);
             XmlElement root = doc1.DocumentElement; //Main Body root element
             XmlNodeList nodes = root.SelectNodes("sehirler");
@@ -31,11 +31,13 @@ namespace WeatherFormsApp1
                 string ili = node["ili"].InnerText;
                 string Durum = node["Durum"].InnerText;
                 string maks_sicaklik = node["Mak"].InnerText;
+                string bolge = node["Bolge"].InnerText;
 
                 DataGridViewRow row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
                 row.Cells[0].Value = ili;
                 row.Cells[1].Value = Durum;
                 row.Cells[2].Value = maks_sicaklik;
+                row.Cells[3].Value = bolge;
                 dataGridView1.Rows.Add(row);
             }
         }

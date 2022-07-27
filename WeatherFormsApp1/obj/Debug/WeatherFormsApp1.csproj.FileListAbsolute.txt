@@ -9,3 +9,7 @@ C:\Users\ueb_\source\repos\WeatherFormsApp1\obj\Debug\WeatherFormsApp1.csproj.Ge
 C:\Users\ueb_\source\repos\WeatherFormsApp1\obj\Debug\WeatherFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\ueb_\source\repos\WeatherFormsApp1\obj\Debug\WeatherFormsApp1.exe
 C:\Users\ueb_\source\repos\WeatherFormsApp1\obj\Debug\WeatherFormsApp1.pdb
+C:\Users\ueb_\source\repos\WeatherFormsApp1\bin\Debug\WeatherFormsApp1.exe.manifest
+C:\Users\ueb_\source\repos\WeatherFormsApp1\bin\Debug\WeatherFormsApp1.application
+C:\Users\ueb_\source\repos\WeatherFormsApp1\obj\Debug\WeatherFormsApp1.exe.manifest
+C:\Users\ueb_\source\repos\WeatherFormsApp1\obj\Debug\WeatherFormsApp1.application
